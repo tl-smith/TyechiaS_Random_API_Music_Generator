@@ -3,18 +3,19 @@ import {fetchArtist} from "./fetch-artist"
 
 
 //Get the search input
+//Get the dialog element that will be used to display popup content
+//Get the element where the artist's name or title will be displayed in the dialog
+//Get the main content container inside the dialog for displaying artist details
+//Get the button element used to close the dialog
+
 const searchInput = document.getElementById("search-input");
 
-// Get the dialog element that will be used to display popup content
+
 const dialog = document.getElementById("popup-dialog");
-// Get the element where the artist's name or title will be displayed in the dialog
 const artistTitle = document.getElementById("artist-title");
-
-// Get the main content container inside the dialog for displaying artist details
 const dialogContent = document.getElementById("dialog-content");
-
-// Get the button element used to close the dialog
 const closeDialogButton = document.getElementById("close-dialog");
+
 
 //Adds a click event listener to the button. When the button is clicked, the function inside gets executed.
 document.getElementById("search-button").addEventListener("click", function() {
@@ -43,7 +44,7 @@ document.getElementById("search-button").addEventListener("click", function() {
   }
 
   
-    // display the dialog box
+    //Display the dialog box
       dialog.style.display = "block";
     })
 
