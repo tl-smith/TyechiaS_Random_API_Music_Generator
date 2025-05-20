@@ -10,7 +10,6 @@ import {fetchArtist} from "./fetch-artist"
 
 const searchInput = document.getElementById("search-input");
 
-
 const dialog = document.getElementById("popup-dialog");
 const artistTitle = document.getElementById("artist-title");
 const dialogContent = document.getElementById("dialog-content");
