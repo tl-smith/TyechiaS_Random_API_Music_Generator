@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/src/style.css" />
+
+    <title>Music Search & Random Generator</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+     <h1>Random Music Generator</h1>
+     <p>🎵Music Lovers🎵, enter your favorite artist and the digital music wheel will serve up the good vibes.</p>
+
+    <div class="search-container">
+          <input id="search-input" type="text" placeholder="Enter artist name...">
+    </div>
+
+      <button class="search-button"  id="search-button">Ready to Jam!</button>
+      
+      <audio id="player" controls style="display: none;"></audio>
+
+
+
+      <dialog id="popup-dialog">
+      <h2 id="artist-title"></h2>
+      <div id="dialog-content">
+      <!-- Placeholder for fetched data -->
+      Loading...
+      </div>
+      <button id="close-dialog">Close</button>
+      </dialog>
+
+
+    <script type="module" src="/src/main.js"></script>
+
+     
+  </body>
+</html>
