@@ -25,6 +25,9 @@ This is a fun and interactive web app that allows users to search for music by a
 ## Getting Started
 To start the project, vite needs to be installed
 
+## Important
+***CORS CHROME Extension needs to be download in order to utilize API
+
 
 ## About the API
 This app uses the Deezer Public API to fetch song data. Here's how it's used:
